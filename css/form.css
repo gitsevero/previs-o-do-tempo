@@ -14,9 +14,9 @@
 }
 
 .form button {
-    padding: 0.8rem;
-    min-width: 50px;
-    margin-left: 8px;
+    padding: 0.5rem;
+    min-width: 30px;
+    margin-left: 2px;
     background-color: #8dd0f5;
     color: #fff;
     border: none;
