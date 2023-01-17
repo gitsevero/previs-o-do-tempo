@@ -27,3 +27,17 @@ body {
     border-radius: 1rem;
     max-width: 400px;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 240px;
+        height: 80vh;
+    }
+
+    #maceio {
+        display: none;
+    }
+
+
+
+}
