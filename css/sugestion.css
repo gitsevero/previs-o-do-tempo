@@ -1,10 +1,13 @@
 #suggestions {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
 }
 
+
+
 #suggestions button {
+    width: 90%;
     padding: .5rem;
     border-radius: 7%;
     border: none;
@@ -19,4 +22,15 @@
 
 #suggestions button:hover {
     opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    #suggestions button {
+        width: 50%;
+    }
+
+    .collun {
+        margin-top: 2rem;
+    }
+
 }
