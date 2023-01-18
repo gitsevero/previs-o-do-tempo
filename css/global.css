@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: "Ubuntu", sans-serif;
-
 }
 
 body {
@@ -21,7 +20,6 @@ body {
 }
 
 .container {
-
     display: flex;
     flex-direction: column;
     padding: 1rem;
